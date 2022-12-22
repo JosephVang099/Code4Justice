@@ -27,9 +27,57 @@ body {
 }
 
 
+    /* Event One */
+.eventone{
+        padding-bottom: 70px;
+        
+    }
+.eventone img{
+    padding-left: 350px;
+}
+.aevent{
+    float: right;
+    padding-top: 30px;
+    padding-right: 300px;
+    text-align: center;
+}
+.aevent h4{
+    display: inline-block;
+    width: 510px;
+}
+
+    /* Event Two */
+.eventtwo{
+    padding-bottom: 120px;
+
+}
+.eventtwo img {
+    float: right;
+    padding-right: 350px;
+}
+.yogaet{
+    padding-left: 180px;
+    text-align: center;
+}
+.yogaet h4{
+    display: inline-block;
+    width: 510px;
+}
 
 
-
+    /* Event Three */
+.eventthree img{
+    padding-left: 350px;
+}
+.paintet{
+    float: right;
+    padding-right: 300px;
+    text-align: center;
+}
+.paintet h4{
+    display: inline-block;
+    width: 510px;
+}
 
 
 
@@ -47,10 +95,3 @@ footer {
     opacity:0.85;
   }  
   
-  img {
-    display: flex;
-    object-fit: cover;
-    margin-left: auto;
-    margin-right: auto;
-    width: 65px;
-}
