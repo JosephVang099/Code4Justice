@@ -28,8 +28,15 @@ body {
 
 
 /* Body */
+body{
+    background-image: url(images/Wellness.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+    }
+
 .intro h2{
     font-size: 60px;
+    padding-top: 200px;
 }
 
 .intro h3{
@@ -46,9 +53,15 @@ body {
     padding: 10px;
 }
 
+.teamhd{
+    font-size: 50px;
+    text-align: center;
+}
+
 .tm{
     border: 5px solid black;
     text-align: center;
+    width: 300px;
     
 }
 
@@ -59,6 +72,11 @@ body {
     margin-right: auto;
     margin-top: 5px;
     width: 300px;
+}
+
+p{
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 /*FOOTER*/
