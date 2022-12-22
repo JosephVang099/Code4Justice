@@ -1,0 +1,190 @@
+body {
+    margin: auto;
+    background: #464646;
+    font-size: 16px;
+    background-image: url(images/Group.jpg);
+    /*https://www.orlandohealth.com/-/media/group-of-people-talking-in-group-therapy.jpg?h=225&w=400&la=en*/
+    background-size: cover; 
+    background-position: center center; /*background image is centered in viewport*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navBar {
+    background: #ACDF87;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.navBar h1 {
+    margin-left: 20px;
+}
+
+.navBar ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navBar ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+}
+
+.navBar ul li a {
+    text-decoration: none;
+    color: #000;
+    padding: 10px;
+    border: white solid 1px;
+    border-radius: 20px;
+}
+
+.navBar ul li a:hover {
+    background: white;
+    opacity: .5;
+    padding: 10px;
+}
+
+.contact, h3 {
+    text-align: center;
+    color: white;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    font-size: 16px;
+    margin: auto; /*Centered form*/
+}
+
+form {
+    width: 40%;
+    background: #fff;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    /*margin-bottom: 80px;*/
+}
+
+input[type=text], [type=email], [type=tel], textarea {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid #808080;
+    padding: 10px;
+    margin: 10px 0;/*Space between labels and inputs*/
+}
+
+textarea {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*input[type=submit] {
+    background: #ACDF87;
+    position: relative;
+    left: 43%;
+    border-radius: 20px;
+    padding: 5px;
+}*/
+
+button {
+    background: #ACDF87;
+    border-radius: 20px;
+    padding: 8px;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    /*left: 43%;*/
+    /*display: flex;
+    justify-content: center;*/
+    margin: auto; /*Centered the button*/
+}
+
+/*.footer {
+    background: #ACDF87;
+    position: fixed;
+    bottom: 0;
+    width: 100%; 
+    text-align: center;
+}*/
+
+.footer {
+    /*display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    padding-top:10px;
+    width: 100%;
+    opacity:0.85;
+    background: #fff;*/
+    text-align: center;
+    opacity:0.85;
+    background: #fff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.icon {
+    height: 40px;
+}
+
+/*Mobile Resppnsiveness*/
+@media screen and (max-width: 768px) {
+    .navBar {
+        font-size: 16px;
+    }
+
+    .navBar ul {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 12px; /*Made navbar links line up and not overlap*/
+    }
+
+    .navBar ul li {
+        list-style: none;
+        display: inline-block;
+        padding: 2px;
+    }
+    
+    form {
+        width: 80%;
+        font-size: 12px;
+    }
+
+    input[type=text], [type=email], [type=tel], textarea {
+        width: 100%;
+        padding: 5px;
+        margin: 10px 0;/*Space between labels and inputs*/
+        /*display: flex;*/
+    }
+
+}
+
+/*Tablet Responsiveness*/
+@media screen and (min-width: 600px) {
+    .navBar {
+        font-size: 18px;
+    }
+
+    /*form {
+        margin-bottom: 40px;
+    }*/
+}
+
+/*Desktop Responsiveness*/
+@media screen and (min-width: 768px) {
+    .navBar {
+        font-size: 20px;
+    }   
+
+    section {
+        width: 80%;
+    }
+}
