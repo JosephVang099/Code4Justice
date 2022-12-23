@@ -51,6 +51,8 @@ body{
     height: auto;
     inline-size: auto;
     padding: 10px;
+    padding-left: 120px;
+    padding-right: 30px;
 }
 
 
@@ -65,7 +67,6 @@ body{
     text-align: center;
     width: 300px;
     margin-top: 70px;
-
 }
 
 .tm img {
@@ -82,7 +83,19 @@ p{
 }
 
 
-
+/*Button*/
+.btn{
+    background-color: grey;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 330px; /* Made the button center in the grid */
+    margin-bottom: 30px; /* Made it not touch the botton of the grid */
+    width: 180px;
+    height: 30px;
+}
 
 /*FOOTER*/
 
@@ -98,10 +111,3 @@ footer {
     opacity:0.85;
   }  
   
-  img {
-    display: flex;
-    object-fit: cover;
-    margin-left: auto;
-    margin-right: auto;
-    width: 65px;
-}
