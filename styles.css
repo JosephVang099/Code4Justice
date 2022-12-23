@@ -33,9 +33,9 @@
 }
 
 .column {
-    width: 35%;
-    padding: 50px;
-}
+      padding: 50px;
+      flex: 1 0; **
+  }
   /* Spreads out boxed evenly */
   .row{
     display: flex;
