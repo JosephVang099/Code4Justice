@@ -27,10 +27,17 @@ body {
 }
 
 
+body{
+    background-image: url(images/bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+
     /* Event One */
 .eventone{
         padding-bottom: 70px;
-        
+        display: flex;
     }
 .eventone img{
     padding-left: 350px;
@@ -38,7 +45,7 @@ body {
 .aevent{
     float: right;
     padding-top: 30px;
-    padding-right: 300px;
+    padding-left: 200px;
     text-align: center;
 }
 .aevent h4{
@@ -49,14 +56,13 @@ body {
     /* Event Two */
 .eventtwo{
     padding-bottom: 120px;
-
+    display: flex;
 }
 .eventtwo img {
-    float: right;
-    padding-right: 350px;
+    padding-left: 300px;
 }
 .yogaet{
-    padding-left: 180px;
+    padding-left: 300px;
     text-align: center;
 }
 .yogaet h4{
@@ -66,12 +72,16 @@ body {
 
 
     /* Event Three */
+.eventthree{
+    display: flex;
+}
 .eventthree img{
     padding-left: 350px;
+
 }
 .paintet{
     float: right;
-    padding-right: 300px;
+    padding-left: 200px;
     text-align: center;
 }
 .paintet h4{
