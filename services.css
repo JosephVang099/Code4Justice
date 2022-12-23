@@ -1,5 +1,8 @@
 /* nav bar */
-
+*{
+  margin: 0;
+  padding: 0;
+}
 .navBar {
   background: #ACDF87;
   display: flex;
@@ -33,25 +36,25 @@
 }
 
 .column {
-    width: 35%;
-    padding: 50px;
+  padding: 50px;
+  flex: 1 0; 
 }
-  /* Spreads out boxed evenly */
-  .row{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  /*  background-image:url(Education_DACA.png); */
-  }
-  /* Style cards */
-  .card {
-    box-shadow: 0 6px 10px 0 rgba(102, 111, 204, 0.2);
-    padding: 16px;
-    text-align: center;
-    background-color:  #F1F1F1;
-    opacity: 0.0 - 1.0;
-   /* border-radius: 15px; */
-  }
+/* Spreads out boxed evenly */
+.row{
+  display: flex;
+  flex-direction: row;
+  
+/*  background-image:url(Education_DACA.png); */
+}
+/* Style cards */
+.card {
+  box-shadow: 0 6px 10px 0 rgba(102, 111, 204, 0.2);
+  padding: 5px;
+  text-align: center;
+  background-color:  #F1F1F1;
+  opacity: 0.0 - 1.0;
+ /* border-radius: 15px; */
+}
 
 
 
@@ -63,6 +66,7 @@ footer {
   justify-content: center;
   bottom:0;
   padding-top:10px;
+  padding: 10px;
   width: 100%;
   opacity:0.85;
-}
+}  
