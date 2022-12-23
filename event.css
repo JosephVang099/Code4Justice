@@ -34,6 +34,13 @@ body{
     }
 
 
+    /*Title*/
+.title{
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline black;
+}
+
     /* Event One */
 .eventone{
         padding-bottom: 70px;
@@ -48,9 +55,13 @@ body{
     padding-left: 200px;
     text-align: center;
 }
+.aevent h2{
+    font-size: xx-large;
+}
 .aevent h4{
     display: inline-block;
     width: 510px;
+    font-size: large;
 }
 
     /* Event Two */
@@ -65,9 +76,13 @@ body{
     padding-left: 300px;
     text-align: center;
 }
+.yogaet h2{
+    font-size: xx-large;
+}
 .yogaet h4{
     display: inline-block;
     width: 510px;
+    font-size: large;
 }
 
 
@@ -84,9 +99,13 @@ body{
     padding-left: 200px;
     text-align: center;
 }
+.paintet h2{
+    font-size: xx-large;
+}
 .paintet h4{
     display: inline-block;
     width: 510px;
+    font-size: large;
 }
 
 
