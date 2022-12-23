@@ -2,17 +2,33 @@
 body {
     margin: auto;
     background: #F2F3F4;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 .navBar {
     background: #ACDF87;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding: 5px;
 }
+
+.navBar h1 {
+    margin-left: 20px;
+}
+
+.navBar ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .navBar ul li {
     list-style: none;
     display: inline-block;
+    padding: 5px;
 }
+
 .navBar ul li a {
     text-decoration: none;
     color: #000;
@@ -20,6 +36,7 @@ body {
     border: white solid 1px;
     border-radius: 20px;
 }
+
 .navBar ul li a:hover {
     background: white;
     opacity: .5;
