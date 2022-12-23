@@ -28,12 +28,19 @@ body {
 
 
 /* Body */
+body{
+    background-image: url(images/Wellness.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+    }
+
 .intro h2{
-    font-size: 60px;
+    font-size: 100px;
+    padding-top: 200px;
 }
 
 .intro h3{
-    font-size: 30px;
+    font-size: 50px;
 }
 
 /* Team */
@@ -46,10 +53,19 @@ body {
     padding: 10px;
 }
 
+
+.teamhd{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 250px;
+}
+
 .tm{
     border: 5px solid black;
     text-align: center;
-    
+    width: 300px;
+    margin-top: 70px;
+
 }
 
 .tm img {
@@ -57,9 +73,16 @@ body {
     object-fit: cover;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 5px;
     width: 300px;
 }
+
+p{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+
 
 /*FOOTER*/
 
