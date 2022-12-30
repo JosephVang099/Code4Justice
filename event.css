@@ -141,3 +141,58 @@ footer {
     opacity:0.85;
   }  
   
+
+    /*Media*/
+  /*Mobile Resppnsiveness*/
+@media screen and (max-width: 768px) {
+    .navBar {
+        font-size: 16px;
+    }
+
+    .navBar ul {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 12px; /*Made navbar links line up and not overlap*/
+    }
+
+    .navBar ul li {
+        list-style: none;
+        display: inline-block;
+        padding: 2px;
+    }
+    
+    form {
+        width: 80%;
+        font-size: 12px;
+    }
+
+    input[type=text], [type=email], [type=tel], textarea {
+        width: 100%;
+        padding: 5px;
+        margin: 10px 0;/*Space between labels and inputs*/
+        /*display: flex;*/
+    }
+
+}
+
+/*Tablet Responsiveness*/
+@media screen and (min-width: 600px) {
+    .navBar {
+        font-size: 18px;
+    }
+
+    /*form {
+        margin-bottom: 40px;
+    }*/
+}
+
+/*Desktop Responsiveness*/
+@media screen and (min-width: 768px) {
+    .navBar {
+        font-size: 20px;
+    }   
+
+    section {
+        width: 80%;
+    }
+}
