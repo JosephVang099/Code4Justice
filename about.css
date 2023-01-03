@@ -43,85 +43,21 @@ body {
     padding: 10px;
 }
 
-
 /* Body */
-body{
-    background-image: url(images/Wellness.jpg);
+body {
+    background-image: url(“images/aboutbck3.jpeg”);
     background-repeat: no-repeat;
-    background-size: 100% 50%;
-    }
-.intro{
-    padding-left: 150px;
-}
-
-.intro h2{
-    font-size: 100px;
-    padding-top: 200px;
-}
-
-.intro h3{
-    font-size: 50px;
-}
-
-/* Team */
-.team{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    column-gap: 40px;
-    height: auto;
-    inline-size: auto;
-    padding: 10px;
-    padding-left: 120px;
-    padding-right: 30px;
-}
-
-
-.teamhd{
+    background-size:110%;
+    position:absolute;
+   }
+.abt {
+    font-family: ‘Times New Roman’, Times, serif;
     font-size: 50px;
     text-align: center;
-    padding-top: 250px;
-    text-decoration: underline black;
-    padding-left: 370px;
+    padding-top:100px ;
 }
 
-.tm{
-    border: 5px solid black;
-    text-align: center;
-    width: 300px;
-    margin-top: 70px;
-}
-
-.tm img {
-    display: flex;
-    object-fit: cover;
-    margin-left: auto;
-    margin-right: auto;
-    width: 300px;
-}
-
-p{
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-
-/*Button*/
-.btn{
-    background-color: grey;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin-left: 330px; /* Made the button center in the grid */
-    margin-bottom: 30px; /* Made it not touch the botton of the grid */
-    width: 180px;
-    height: 30px;
-}
-
-/*FOOTER*/
-
-/*social media links*/
+/* FOOTER */
 footer {
     display: flex;
     align-items: center;
@@ -133,12 +69,11 @@ footer {
     opacity:0.85;
     background: #fff;
   }  
-  
 
 
-/*Media*/
+  /*Media*/
   /*Mobile Resppnsiveness*/
-@media screen and (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     .navBar {
         font-size: 16px;
     }
