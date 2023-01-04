@@ -1,53 +1,51 @@
 /* Header and Nav */
 body {
-    padding: 0;
-   margin: 0;
-   box-sizing: border-box;
+    margin: auto;
     background: white;
+    width: 100%;
     font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
     background-image: url(images/Wellness.jpg);
+    background-size: 100% 50%; 
     background-repeat: no-repeat, no-repeat;
-    background-size: 100% 50%;
-    background-position: left top, right top;
-}
-    
-    .navBar {
-        background: #ACDF87;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        padding: 5px;
-    }
-    
-    .navBar h1 {
-        margin-left: 20px;
-    }
-    
-    .navBar ul {
-        display: flex;
-        flex-wrap: wrap;
-    }
-    
-    .navBar ul li {
-        list-style: none;
-        display: inline-block;
-        
-    }
-    
-    .navBar ul li a {
-        text-decoration: none;
-        color: #000;
-        padding: 10px;
-        border: white solid 1px;
-        border-radius: 20px;
-    }
-    
-    .navBar ul li a:hover {
-        background: white;
-        opacity: .5;
-        padding: 10px;
-    }
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .navBar {
+    background: #ACDF87;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 5px;
+  }
+  
+  .navBar h1 {
+    margin-left: 20px;
+  }
+  
+  .navBar ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .navBar ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+  }
+  
+  .navBar ul li a {
+    text-decoration: none;
+    color: #000;
+    padding: 10px;
+    border: white solid 1px;
+    border-radius: 20px;
+  }
+  
+  .navBar ul li a:hover {
+    background: white;
+    opacity: .5;
+    padding: 10px;
+  }
 
 
 /* Body */
@@ -106,7 +104,6 @@ body{
 
 p{
     padding-left: 20px;
-    padding-right: 20px;
 }
 
 
