@@ -16,6 +16,7 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 5px;
+    width: auto;
   }
   
   .navBar h1 {
@@ -68,13 +69,10 @@ body{
 /* Team */
 .team{
     display: grid;
-    grid-template-columns: auto auto auto auto;
-    column-gap: 40px;
+    grid-template-columns: repeat(2,1fr);
     height: auto;
     /* inline-size: auto;  */
-    padding: 10px;
-    padding-left: 140px;
-   
+    padding-left: 300px;
 }
 
 
