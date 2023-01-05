@@ -50,9 +50,6 @@ body {
 
 
 /* Body */
-body{
-  
-    }
 .intro{
     padding-left: 150px;
 }
@@ -72,16 +69,17 @@ body{
     grid-template-columns: repeat(2,1fr);
     height: auto;
     /* inline-size: auto;  */
-    padding-left: 300px;
+    justify-items: center;
+    padding-left: 150px;
 }
 
 
 .teamhd{
     font-size: 50px;
     text-align: center;
-    padding-top: 250px;
+    padding-top: 300px;
     text-decoration: underline black;
-    padding-left: 200px;
+    padding-left: 300px;
 }
 
 .tm{
@@ -129,7 +127,7 @@ footer {
     bottom:0;
     padding-top:10px;
     padding: 10px;
-    width: 100%;
+    width: auto;
     opacity:0.85;
     background: #fff;
   }  
