@@ -204,7 +204,7 @@ footer {
     .navBar ul {
         display: flex;
         flex-wrap: wrap;
-        font-size: 12px; /*Made navbar links line up and not overlap*/
+        font-size: 20px; /*Made navbar links line up and not overlap*/
     }
 
     .intro h2 {
