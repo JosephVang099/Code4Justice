@@ -1,55 +1,55 @@
 /* Header and Nav */
 body {
     margin: auto;
-    background: #F2F3F4;
+    background: white;
+    width: 100%;
     font-size: 20px;
+    background-image: url(images/Wellness.jpg);
+    background-size: auto auto; 
+    background-repeat: no-repeat, no-repeat;
     font-family: Arial, Helvetica, sans-serif;
-}
-
-.navBar {
+  }
+  
+  .navBar {
     background: #ACDF87;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 5px;
-}
-
-.navBar h1 {
+    width: auto;
+  }
+  
+  .navBar h1 {
     margin-left: 20px;
-}
-
-.navBar ul {
+  }
+  
+  .navBar ul {
     display: flex;
     flex-wrap: wrap;
-}
-
-.navBar ul li {
+  }
+  
+  .navBar ul li {
     list-style: none;
     display: inline-block;
     padding: 5px;
-}
-
-.navBar ul li a {
+  }
+  
+  .navBar ul li a {
     text-decoration: none;
     color: #000;
     padding: 10px;
     border: white solid 1px;
     border-radius: 20px;
-}
-
-.navBar ul li a:hover {
+  }
+  
+  .navBar ul li a:hover {
     background: white;
     opacity: .5;
     padding: 10px;
-}
+  }
 
 
 /* Body */
-body{
-    background-image: url(images/Wellness.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 50%;
-    }
 .intro{
     padding-left: 150px;
 }
@@ -66,42 +66,40 @@ body{
 /* Team */
 .team{
     display: grid;
-    grid-template-columns: repeat(4,1fr);
-    column-gap: 40px;
+    grid-template-columns: repeat(2,1fr);
     height: auto;
-    inline-size: auto;
-    padding: 10px;
-    padding-left: 120px;
-    padding-right: 30px;
+    /* inline-size: auto;  */
+    justify-items: center;
+    padding-left: 150px;
 }
 
 
 .teamhd{
     font-size: 50px;
     text-align: center;
-    padding-top: 250px;
+    padding-top: 300px;
     text-decoration: underline black;
-    padding-left: 370px;
+    padding-left: 300px;
 }
 
 .tm{
     border: 5px solid black;
     text-align: center;
-    width: 300px;
+    width: 250px;
     margin-top: 70px;
 }
 
 .tm img {
-    display: flex;
+    /* display: flex; */
+    
     object-fit: cover;
     margin-left: auto;
     margin-right: auto;
-    width: 300px;
+    width: 250px;
 }
 
 p{
     padding-left: 20px;
-    padding-right: 20px;
 }
 
 
@@ -129,7 +127,7 @@ footer {
     bottom:0;
     padding-top:10px;
     padding: 10px;
-    width: 100%;
+    width: auto;
     opacity:0.85;
     background: #fff;
   }  
