@@ -4,9 +4,9 @@ body {
     background: #F2F3F4;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url(images/bckgroundabt.jpeg);
-    background-size: cover;
-    position:absolute;
+    background-image: url(images/brwback.jpeg);
+    background-size: ;
+    position: absolute;
 }
 
 .navBar {
