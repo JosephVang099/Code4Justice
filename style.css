@@ -154,6 +154,59 @@ footer {
         padding: 2px;
     }
 
+    .intro {
+        padding-left: 10px;
+    }
+
+    .intro h2 {
+        font-size: 50px;
+    }
+
+    .intro h3 {
+        font-size: 30px;
+    }
+
+     .team {
+        padding-left: none;
+        justify-content: center;
+    }
+
+    .btn {
+        padding: none;
+        margin: auto;
+    }
+
+    .teamhd{
+        justify-items: center;
+        padding-left: 0;
+    }
+
+    .tm{
+        width: 150px;
+    }
+
+    .tm img {
+        width: 150px;
+    } 
+    .team{
+        padding: 0;
+    }
+}
+
+
+
+/*Tablet Responsiveness*/
+@media screen and (min-width: 600px) {
+    .navBar {
+        font-size: 16px;
+    }
+
+    .navBar ul {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 12px; /*Made navbar links line up and not overlap*/
+    }
+
     .intro h2 {
         font-size: 50px;
     }
@@ -173,27 +226,17 @@ footer {
     }
 
     .teamhd{
-        justify-items: center;
-        padding-left: none;
+        padding-left: 0;
+        font-size: 30px;
     }
 
-    .tm{
+    .team {
+        padding: 0;
+    }
+
+    /* .tm img {
         width: 150px;
-        padding-left: none;
-    }
-
-    .tm img {
-        width: 150px;
-    }
-}
-
-
-
-/*Tablet Responsiveness*/
-@media screen and (min-width: 600px) {
-    .navBar {
-        font-size: 18px;
-    }
+    } */ 
 
 }
 
