@@ -139,7 +139,7 @@ footer {
 
     /*Media*/
   /*Mobile Resppnsiveness*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 500px) {
     .navBar {
         font-size: 16px;
     }
@@ -156,17 +156,69 @@ footer {
         padding: 2px;
     }
     
-    form {
-        width: 80%;
-        font-size: 12px;
-    }
+     /*Title*/
+.title{
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline black;
 
-    input[type=text], [type=email], [type=tel], textarea {
-        width: 100%;
-        padding: 5px;
-        margin: 10px 0;/*Space between labels and inputs*/
-        /*display: flex;*/
+}
+
+    /* Event One */
+.eventone{
+        padding-bottom: 70px;
+        display: flex;
+        justify-content: center;
     }
+.aevent{
+    
+    text-align: center;
+}
+.aevent h2{
+    font-size: xx-large;
+}
+.aevent h4{
+    display: inline-block;
+    width: 510px;
+    font-size: large;
+}
+
+    /* Event Two */
+.eventtwo{
+    padding-bottom: 120px;
+    display: flex;
+    justify-content: center;
+}
+.yogaet{
+    text-align: center;
+}
+.yogaet h2{
+    font-size: xx-large;
+}
+.yogaet h4{
+    display: inline-block;
+    width: 510px;
+    font-size: large;
+}
+
+
+    /* Event Three */
+.eventthree{
+    padding-bottom: 70px;
+    display: flex;
+    justify-content: center;
+}
+.paintet{
+    text-align: center;
+}
+.paintet h2{
+    font-size: xx-large;
+}
+.paintet h4{
+    display: inline-block;
+    width: 510px;
+    font-size: large;
+}
 
 }
 
