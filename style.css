@@ -25,6 +25,7 @@
 .navBar ul {
     display: flex;
     flex-wrap: wrap;
+    position: relative;
 }
 
 .navBar ul li {
@@ -136,7 +137,7 @@ footer {
 
 /*Media*/
   /*Mobile Resppnsiveness*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 500px) {
     .navBar {
         font-size: 16px;
     }
@@ -159,6 +160,30 @@ footer {
 
     .intro h3 {
         font-size: 30px;
+    }
+
+    .team {
+        padding-left: none;
+        justify-content: center;
+    }
+
+    .btn {
+        padding: none;
+        margin: auto;
+    }
+
+    .teamhd{
+        justify-items: center;
+        padding-left: none;
+    }
+
+    .tm{
+        width: 150px;
+        padding-left: none;
+    }
+
+    .tm img {
+        width: 150px;
     }
 }
 
