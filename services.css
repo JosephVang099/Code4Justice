@@ -41,9 +41,9 @@
   }
   /* Spreads out boxed evenly */
   .row{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 100vw;
   /*  background-image:url(Education_DACA.png); */
   }
   /* Style cards */
