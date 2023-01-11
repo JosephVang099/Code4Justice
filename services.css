@@ -54,21 +54,27 @@ body {
   }
   /* Spreads out boxed evenly */
   .row{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  /*  background-image:url(Education_DACA.png); */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 100vw;
+  }
+
+  .row  * {
+    max-width: 100%;
   }
   /* Style cards */
   .card {
-    box-shadow: 0 6px 10px 0 rgba(102, 111, 204, 0.2);
+    font-size: small;
     padding: 16px;
     text-align: center;
-    background-color:  #F1F1F1;
-    opacity: 0.0 - 1.0;
+    background-color:  whitesmoke;
    /* border-radius: 15px; */
   }
 
+  .card__img {
+    width: 50%; /* Resizes the image to half of its original width */
+    height: 200px; /* Resizes the image to 200px in height */
+  }
 
 
 /* footer */
@@ -80,7 +86,7 @@ footer {
   bottom:0;
   padding-top:10px;
   padding: 10px;
-
+  /* width: 100%; */
   opacity:0.85;
   background: #fff;
 }  
@@ -104,7 +110,11 @@ footer {
         display: inline-block;
         padding: 2px;
     }
-    
+    .card__img {
+      height: 50%;
+width: 50%;
+      }
+
     form {
         width: 80%;
         font-size: 12px;
@@ -116,6 +126,7 @@ footer {
         margin: 10px 0;/*Space between labels and inputs*/
         /*display: flex;*/
     }
+
 
 }
 
