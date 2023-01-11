@@ -56,18 +56,18 @@ body{
     text-align: center;
     font-size: 50px;
     text-decoration: underline black;
-    padding-left: 150px;
+    padding-left: 10%;
 }
 
     /* Event One */
 .eventone{
         padding-bottom: 70px;
-        padding-left: 150px;
+        padding-left: 20%;
         display: flex;
         justify-content: center;
     }
 .aevent{
-    padding-left: 200px;
+    
     text-align: center;
 }
 .aevent h2{
@@ -82,12 +82,11 @@ body{
     /* Event Two */
 .eventtwo{
     padding-bottom: 120px;
-    padding-left: 150px;
+    padding-left: 20%;
     display: flex;
     justify-content: center;
 }
 .yogaet{
-    padding-left: 200px;
     text-align: center;
 }
 .yogaet h2{
@@ -103,12 +102,11 @@ body{
     /* Event Three */
 .eventthree{
     padding-bottom: 70px;
-    padding-left: 150px;
+    padding-left: 20%;
     display: flex;
     justify-content: center;
 }
 .paintet{
-    padding-left: 200px;
     text-align: center;
 }
 .paintet h2{
@@ -139,7 +137,7 @@ footer {
 
     /*Media*/
   /*Mobile Resppnsiveness*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 500px) {
     .navBar {
         font-size: 16px;
     }
@@ -156,17 +154,90 @@ footer {
         padding: 2px;
     }
     
-    form {
-        width: 80%;
-        font-size: 12px;
-    }
+     /*Title*/
+.title{
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline black;
 
-    input[type=text], [type=email], [type=tel], textarea {
-        width: 100%;
-        padding: 5px;
-        margin: 10px 0;/*Space between labels and inputs*/
-        /*display: flex;*/
+}
+
+
+    /* Event One */
+.eventone{
+        padding-bottom: 70px;
+        display: flex;
+        justify-content: center;
     }
+.eventone img{
+    height: 20%;
+    width: 50%;
+}
+.aevent{
+    text-align: center;
+}
+.aevent h2{
+    font-size: 20px;
+}
+.aevent h3{
+    font-size: 20px;
+}
+.aevent h4{
+    display: inline-block;
+    width: 50%;
+    font-size: 15px;
+}
+
+    /* Event Two */
+.eventtwo{
+    padding-bottom: 120px;
+    display: flex;
+    justify-content: center;
+}
+.eventtwo img{
+    height: 20%;
+    width: 50%;
+}
+.yogaet{
+    text-align: center;
+}
+.yogaet h2{
+    font-size: 20px;
+}
+.yogaet h3 {
+    font-size: 20px;
+}
+.yogaet h4{
+    display: inline-block;
+    width: 50%;
+    font-size: 15px;
+}
+
+
+    /* Event Three */
+.eventthree{
+    padding-bottom: 70px;
+    display: flex;
+    justify-content: center;
+}
+.eventthree img{
+    height: 20%;
+    width: 50%;
+}
+.paintet{
+    text-align: center;
+}
+.paintet h2{
+    font-size: 20px;
+}
+.paintet h3{
+    font-size: 20px;
+}
+.paintet h4{
+    display: inline-block;
+    width: 50%;
+    font-size: 15px;
+}
 
 }
 
@@ -175,10 +246,6 @@ footer {
     .navBar {
         font-size: 18px;
     }
-
-    /*form {
-        margin-bottom: 40px;
-    }*/
 }
 
 /*Desktop Responsiveness*/

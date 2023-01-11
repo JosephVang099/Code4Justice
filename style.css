@@ -1,52 +1,52 @@
-/* Header and Nav */
-body {
+/* Header and Nav */  
+  body {
     margin: auto;
     background: white;
-    width: 100%;
     font-size: 20px;
     background-image: url(images/Wellness.jpg);
-    background-size: auto auto; 
+    background-size: cover; 
     background-repeat: no-repeat, no-repeat;
+    background-attachment: fixed;
     font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  .navBar {
+}
+
+.navBar {
     background: #ACDF87;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 5px;
-    width: auto;
-  }
-  
-  .navBar h1 {
+}
+
+.navBar h1 {
     margin-left: 20px;
-  }
-  
-  .navBar ul {
+}
+
+.navBar ul {
     display: flex;
     flex-wrap: wrap;
-  }
-  
-  .navBar ul li {
+    position: relative;
+}
+
+.navBar ul li {
     list-style: none;
     display: inline-block;
     padding: 5px;
-  }
-  
-  .navBar ul li a {
+}
+
+.navBar ul li a {
     text-decoration: none;
     color: #000;
     padding: 10px;
     border: white solid 1px;
     border-radius: 20px;
-  }
-  
-  .navBar ul li a:hover {
+}
+
+.navBar ul li a:hover {
     background: white;
     opacity: .5;
     padding: 10px;
-  }
+}
 
 
 /* Body */
@@ -66,11 +66,11 @@ body {
 /* Team */
 .team{
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2,1fr); /* Used auto auto auto auto */
     height: auto;
     /* inline-size: auto;  */
     justify-items: center;
-    padding-left: 150px;
+    padding-left: 10%;
 }
 
 
@@ -79,7 +79,7 @@ body {
     text-align: center;
     padding-top: 300px;
     text-decoration: underline black;
-    padding-left: 300px;
+    padding-left: 30%;
 }
 
 .tm{
@@ -87,6 +87,7 @@ body {
     text-align: center;
     width: 250px;
     margin-top: 70px;
+    background-color: #fff;
 }
 
 .tm img {
@@ -111,7 +112,7 @@ p{
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin-left: 330px; /* Made the button center in the grid */
+    margin-left: 30%; /* Made the button center in the grid */
     margin-bottom: 30px; /* Made it not touch the botton of the grid */
     width: 180px;
     height: 30px;
@@ -136,7 +137,7 @@ footer {
 
 /*Media*/
   /*Mobile Resppnsiveness*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 500px) {
     .navBar {
         font-size: 16px;
     }
@@ -149,33 +150,87 @@ footer {
 
     .navBar ul li {
         list-style: none;
-        display: inline-block;
+        display: block;
         padding: 2px;
     }
-    
-    form {
-        width: 80%;
-        font-size: 12px;
+
+    .intro {
+        padding-left: 10px;
     }
 
-    input[type=text], [type=email], [type=tel], textarea {
-        width: 100%;
-        padding: 5px;
-        margin: 10px 0;/*Space between labels and inputs*/
-        /*display: flex;*/
+    .intro h2 {
+        font-size: 50px;
     }
 
+    .intro h3 {
+        font-size: 30px;
+    }
+
+     .team {
+        padding-left: none;
+        justify-content: center;
+    }
+
+    .btn {
+        padding: none;
+        margin: auto;
+    }
+
+    .teamhd{
+        justify-items: center;
+        padding-left: 0;
+    }
+
+    .tm{
+        width: 150px;
+    }
+
+    .tm img {
+        width: 150px;
+    } 
+    .team{
+        padding: 0;
+    }
 }
+
+
 
 /*Tablet Responsiveness*/
 @media screen and (min-width: 600px) {
     .navBar {
-        font-size: 18px;
+        font-size: 16px;
     }
 
-    /*form {
-        margin-bottom: 40px;
-    }*/
+    .navBar ul {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 20px; /*Made navbar links line up and not overlap*/
+    }
+
+
+   /* .team {
+        padding-left: none;
+        justify-content: center;
+    }
+
+    .btn {
+        padding: none;
+        margin: auto;
+    }
+
+    .teamhd{
+        padding-left: 0;
+        font-size: 30px;
+    }
+
+    .team {
+        padding: 0;
+    }
+
+     .tm img {
+        width: 150px;
+    } */ 
+
 }
 
 /*Desktop Responsiveness*/
