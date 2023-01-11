@@ -1,0 +1,127 @@
+/* Header and Nav */
+body {
+    margin: 0;
+    background: #F2F3F4;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(images/brwback.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-attachment: fixed;
+}
+
+.navBar {
+    background: #ACDF87;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.navBar h1 {
+    margin-left: 20px;
+}
+
+.navBar ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navBar ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+}
+
+.navBar ul li a {
+    text-decoration: none;
+    color: #000;
+    padding: 10px;
+    border: white solid 1px;
+    border-radius: 20px;
+}
+
+.navBar ul li a:hover {
+    background: white;
+    opacity: .5;
+    padding: 10px;
+}
+
+/* Body */
+.abt {
+    font-family: ‘Times New Roman’, Times, serif;
+    font-size: 50px;
+    text-align: center;
+    padding-top:100px ;
+}
+
+/* FOOTER */
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom:0;
+    padding-top:10px;
+    padding: 10px;
+    opacity:0.85;
+    background: #784A40;
+  }  
+
+
+  /*Media*/
+  /*Mobile Resppnsiveness*/
+  @media screen and (max-width: 768px) {
+    .navBar {
+        font-size: 16px;
+    }
+
+    .navBar ul {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 12px; /*Made navbar links line up and not overlap*/
+    }
+
+    .navBar ul li {
+        list-style: none;
+        display: inline-block;
+        padding: 2px;
+    }
+    
+    form {
+        width: 80%;
+        font-size: 12px;
+    }
+
+    input[type=text], [type=email], [type=tel], textarea {
+        width: 100%;
+        padding: 5px;
+        margin: 10px 0;/*Space between labels and inputs*/
+        /*display: flex;*/
+    }
+
+}
+
+/*Tablet Responsiveness*/
+@media screen and (min-width: 600px) {
+    .navBar {
+        font-size: 18px;
+    }
+
+    /*form {
+        margin-bottom: 40px;
+    }*/
+}
+
+/*Desktop Responsiveness*/
+@media screen and (min-width: 768px) {
+    .navBar {
+        font-size: 20px;
+    }   
+
+    section {
+        width: 80%;
+    }
+}

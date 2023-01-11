@@ -1,0 +1,245 @@
+/* Header and Nav */  
+  body {
+    margin: auto;
+    background: white;
+    font-size: 20px;
+    background-image: url(images/Wellness.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat, no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navBar {
+    background: #ACDF87;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.navBar h1 {
+    margin-left: 20px;
+}
+
+.navBar ul {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.navBar ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+}
+
+.navBar ul li a {
+    text-decoration: none;
+    color: #000;
+    padding: 10px;
+    border: white solid 1px;
+    border-radius: 20px;
+}
+
+.navBar ul li a:hover {
+    background: white;
+    opacity: .5;
+    padding: 10px;
+}
+
+
+/* Body */
+.intro{
+    padding-left: 150px;
+}
+
+.intro h2{
+    font-size: 100px;
+    padding-top: 200px;
+}
+
+.intro h3{
+    font-size: 50px;
+}
+
+/* Team */
+.team{
+    display: grid;
+    grid-template-columns: repeat(2,1fr); /* Used auto auto auto auto */
+    height: auto;
+    /* inline-size: auto;  */
+    justify-items: center;
+    padding-left: 10%;
+}
+
+
+.teamhd{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 300px;
+    text-decoration: underline black;
+    padding-left: 30%;
+}
+
+.tm{
+    border: 5px solid black;
+    text-align: center;
+    width: 250px;
+    margin-top: 70px;
+    background-color: #fff;
+}
+
+.tm img {
+    /* display: flex; */
+    
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+}
+
+p{
+    padding-left: 20px;
+}
+
+
+/*Button*/
+.btn{
+    background-color: grey;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 30%; /* Made the button center in the grid */
+    margin-bottom: 30px; /* Made it not touch the botton of the grid */
+    width: 180px;
+    height: 30px;
+}
+
+/*FOOTER*/
+
+/*social media links*/
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom:0;
+    padding-top:10px;
+    padding: 10px;
+    width: auto;
+    opacity:0.85;
+    background: #fff;
+  }  
+  
+
+
+/*Media*/
+  /*Mobile Resppnsiveness*/
+@media screen and (max-width: 500px) {
+    .navBar {
+        font-size: 16px;
+    }
+
+    .navBar ul {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 12px; /*Made navbar links line up and not overlap*/
+    }
+
+    .navBar ul li {
+        list-style: none;
+        display: block;
+        padding: 2px;
+    }
+
+    .intro {
+        padding-left: 10px;
+    }
+
+    .intro h2 {
+        font-size: 50px;
+    }
+
+    .intro h3 {
+        font-size: 30px;
+    }
+
+     .team {
+        padding-left: none;
+        justify-content: center;
+    }
+
+    .btn {
+        padding: none;
+        margin: auto;
+    }
+
+    .teamhd{
+        justify-items: center;
+        padding-left: 0;
+    }
+
+    .tm{
+        width: 150px;
+    }
+
+    .tm img {
+        width: 150px;
+    } 
+    .team{
+        padding: 0;
+    }
+}
+
+
+
+/*Tablet Responsiveness*/
+@media screen and (min-width: 600px) {
+    .navBar {
+        font-size: 16px;
+    }
+
+    .navBar ul {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 20px; /*Made navbar links line up and not overlap*/
+    }
+
+
+   /* .team {
+        padding-left: none;
+        justify-content: center;
+    }
+
+    .btn {
+        padding: none;
+        margin: auto;
+    }
+
+    .teamhd{
+        padding-left: 0;
+        font-size: 30px;
+    }
+
+    .team {
+        padding: 0;
+    }
+
+     .tm img {
+        width: 150px;
+    } */ 
+
+}
+
+/*Desktop Responsiveness*/
+@media screen and (min-width: 768px) {
+    .navBar {
+        font-size: 20px;
+    }   
+
+    section {
+        width: 80%;
+    }
+}
